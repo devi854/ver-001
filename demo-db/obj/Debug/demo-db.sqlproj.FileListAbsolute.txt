@@ -1,0 +1,10 @@
+C:\Users\PRASAD\source\repos\demo-db\demo-db\bin\Debug\demo-db.dacpac
+C:\Users\PRASAD\source\repos\demo-db\demo-db\bin\Debug\demo_db.dll
+C:\Users\PRASAD\source\repos\demo-db\demo-db\bin\Debug\demo_db.pdb
+C:\Users\PRASAD\source\repos\demo-db\demo-db\obj\Debug\demo-db.sqlproj.AssemblyReference.cache
+C:\Users\PRASAD\source\repos\demo-db\demo-db\obj\Debug\Model.xml
+C:\Users\PRASAD\source\repos\demo-db\demo-db\obj\Debug\refactor.xml
+C:\Users\PRASAD\source\repos\demo-db\demo-db\obj\Debug\postdeploy.sql
+C:\Users\PRASAD\source\repos\demo-db\demo-db\obj\Debug\predeploy.sql
+C:\Users\PRASAD\source\repos\demo-db\demo-db\obj\Debug\demo_db.dll
+C:\Users\PRASAD\source\repos\demo-db\demo-db\obj\Debug\demo_db.pdb
