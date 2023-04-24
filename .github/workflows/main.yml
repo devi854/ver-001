@@ -25,18 +25,18 @@ jobs:
       - name: sql package
         run: dotnet tool install -g microsoft.sqlpackage
          
-      - name: sql build
-        run: dotnet build demo-db.sqlproj -p:NetCoreBuild -c Release
+     # - name: sql build
+     #   run: dotnet build demo-db.sqlproj -p:NetCoreBuild -c Release
          
-      - name: Zip DACPAC
-        run: |
-          cd ./bin/Release
-          zip -r dacpac.zip ./
+     # - name: Zip DACPAC
+     #   run: |
+     #     cd ./bin/Release
+     #     zip -r dacpac.zip ./
            
-      - name: list
-        run: |
-          cd ./bin/Release
-          ls
+     # - name: list
+     #   run: |
+    #    cd ./bin/Release
+     #     ls
            
       - name: setup JFrog CLI
         uses: jfrog/setup-jfrog-cli@v3.2.0
@@ -45,7 +45,7 @@ jobs:
           ARTIFACTORY_PASSWORD: ${{ secrets.ARTIFACTORY_PASSWORD }}
           URL: https://durga1212.jfrog.io
           
-      - name: upload package to artifact
-        run: |
-         curl -uprasadkesari329.dk@gmail.com:$ARTIFACTORY_PASSWORD -T dacpac.zip "https://durga1212.jfrog.io/artifactory/generic-release/"
+     # - name: upload package to artifact
+      #  run: |
+       #  curl -uprasadkesari329.dk@gmail.com:$ARTIFACTORY_PASSWORD -T dacpac.zip "https://durga1212.jfrog.io/artifactory/generic-release/"
          
