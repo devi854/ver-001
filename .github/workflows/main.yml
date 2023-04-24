@@ -1,8 +1,8 @@
 name: Build
 on: 
-  push:
-    branches:
-      - feature-002
+  release:
+    types:
+      - created
       
 env:
   DOTNET_INSTALL_DIR: "runner/dotnet"
